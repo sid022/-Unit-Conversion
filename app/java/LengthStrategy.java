@@ -4,7 +4,6 @@ package com.siddharthpaunikar.unitconverter;
 public class LengthStrategy implements Strategy {
 	
 	public double Convert(String from, String to, double input) {
-		// TODO Auto-generated method stub
 		
 		//Application app = UnitConverter.StrategyClass
 		if((from.equals(UnitConverter.getInstance().getApplicationContext().getResources().getString(R.string.lengthunitkm)) && to.equals(UnitConverter.getInstance().getApplicationContext().getResources().getString(R.string.lengthunitmile)))){
