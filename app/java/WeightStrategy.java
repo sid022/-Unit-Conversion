@@ -1,5 +1,5 @@
 
-package com.sushanthmanakhari.unitconverter;
+package com.siddharthpaunikar.unitconverter;
 
 public class WeightStrategy implements Strategy {
 
